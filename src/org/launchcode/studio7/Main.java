@@ -8,5 +8,10 @@ public class Main {
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
 
+        DVD dvd = new DVD("Batman", "2022",1200, "DVD", 570, 1600);
+
+       dvd.playDisc();
+       dvd.stopDisc();
+       dvd.spinDisc();
     }
 }
